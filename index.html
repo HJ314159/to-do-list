@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css"> 
+    <script src="https://kit.fontawesome.com/0559bb0b2d.js" crossorigin="anonymous"></script>
+    <title>To Do List</title>
+</head>
+<body>
+    <header>
+        <form class = "color-picker" action="">
+            <fieldset>
+                <input type="radio" name="theme" id = "light" checked>
+                <label for="theme"class = "visually-hidden">classic blue</label>
+                <input type="radio" name="theme" id = "blue">
+                <label for="theme"class = "visually-hidden">fresh green</label>
+                <input type="radio" name="theme" id = "green">
+                <label for="theme"class = "visually-hidden">vibrant orange</label>
+                <input type="radio" name="theme" id = "orange">
+                <label for="theme"class = "visually-hidden">elegant grey</label>
+                <input type="radio" name="theme" id = "grey">
+                <label for="theme"class = "visually-hidden">calm purple</label>
+                <input type="radio" name="theme" id = "purple">
+            </fieldset>
+        </form> 
+        <h1>To Do List</h1>
+        <div class="user-add">
+            <input type="text" name = "task" placeholder="Type task here" id = "user-input" maxlength = "110">
+            <button id = "submit-btn">+</button>
+        </div>
+    </header>
+    <section>
+        <div id = "tasks"></div>
+    </section>   
+    <script src="script.js"></script>
+</body>
+</html>
