@@ -1,5 +1,5 @@
 # to-do-list
-To-do list is a simple web application that made for managing tasks.
+To-do list is a simple web application made for managing tasks.
 
 ## Table of contents
 1. Description
